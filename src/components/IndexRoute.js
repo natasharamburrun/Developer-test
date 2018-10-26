@@ -21,12 +21,11 @@ class IndexRoute extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     return (
       <div className="columns is-multiline">
         {this.state.data.map(share =>
           <div className="card column is-one-quarter-desktop is-one-third-tablet" key={share.id}>
-            <Link to={'share.image'}>
+            <Link to={`/share/${share.id}`}>
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src={share.image} alt="Shared item image" />

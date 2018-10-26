@@ -6,7 +6,7 @@ http://api.kano.me/share?limit=100
 
 TOO DO:
 
-1) Style: Add a header at the top of the page with the Kano logo and the page title ‘Latest 100 shares’ - DONE
+1) Style: Add a header at the top of the page with the Kano logo and the page title ‘Latest 100 shares’
 
 2) Top 100 shared items displayed in a grid-like format
 Each share item should show a picture, title, author’s username and number of likes.

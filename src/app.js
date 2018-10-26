@@ -16,6 +16,7 @@ class App extends React.Component {
         <main className="container">
           <header className="header">
             <img src="http://pong.kano.me/assets/kano-logo.png" alt="Kano logo" />
+            <h1>Latest 100 shares</h1>
           </header>
           <Switch>
             <Route path="/:id" component={ShowRoute} />
